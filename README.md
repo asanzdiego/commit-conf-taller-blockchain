@@ -28,6 +28,7 @@ Veremos un poco de [Solidity](https://solidity.readthedocs.io/en/v0.4.24/), un l
 ### Prerequisitos
 
 Instalar NodeJS https://nodejs.org/
+
 Instalar MetaMask https://metamask.io/
 
 ### Clonar el repositorio
