@@ -1,6 +1,6 @@
 % Desarrollo ÐApp de Expedientes Académicos en Blockchain de Ethereum
 % Adolfo Sanz De Diego
-% Septiembre 2018
+% Commit-Conf 2018
 
 
 
@@ -216,6 +216,8 @@ function getOrganizationsLength() external view returns(uint) {
 }
 ~~~
 
+[contracts/NonGovernmentalOrganizations.sol](https://github.com/asanzdiego/commit-conf-taller-blockchain/blob/master/contracts/NonGovernmentalOrganizations.sol)
+
 ## ¿Comentarios generales?
 
 > - Muchas limitaciones, por eso reducir la lógica al mínimo.
@@ -300,6 +302,8 @@ contract("NonGovernmentalOrganizations", async (accounts) => {
     });
 });
 ~~~
+
+[test/TestNonGovernmentalOrganizations.js](https://github.com/asanzdiego/commit-conf-taller-blockchain/blob/master/test/TestNonGovernmentalOrganizations.js)
 
 ## Testear
 
@@ -389,6 +393,8 @@ async getContractInstance(): Promise<any> {
 }
 ~~~
 
+[src/app/services/web3.service.ts](https://github.com/asanzdiego/commit-conf-taller-blockchain/blob/master/src/app/services/web3.service.ts)
+
 ## Add organisation
 
 ~~~{.javascript}
@@ -421,6 +427,8 @@ async donation(id: number, ethValue: number): Promise<Donation> {
     return donation;
 }
 ~~~
+
+[src/app/services/organizations.service.ts](https://github.com/asanzdiego/commit-conf-taller-blockchain/blob/master/src/app/services/organizations.service.ts)
 
 ## Resumen
 
@@ -467,6 +475,8 @@ module.exports = {
 };
 ~~~
 
+[truffle.js](https://github.com/asanzdiego/commit-conf-taller-blockchain/blob/master/truffle.js)
+
 ## Migrar a rinkeby
 
 - Para migrar a Rinkeby tenemos que usar la **apiKey** de Infura y una **walletMmnemonic** de una wallet con saldo suficiente en Rinkeby y ejecutar:
@@ -475,10 +485,16 @@ module.exports = {
 truffle migrate --network rinkeby
 ~~~
 
+## Resumen
+
+> - **Infura**: simplifica el despliegue de ÐApps.
+> - **Rinkeby**: red de pruebas para probar ÐApps.
+> - **truffle.js**: apiKey y walletMmnemonic.
+> - **Migrar**: truffle migrate --network rinkeby
 
 
 
-# Resumen
+# Resumen y conclusiones
 
 
 
@@ -519,14 +535,6 @@ truffle migrate --network rinkeby
 > - Tecnologías nuevas, pero ya se pueden empezar a implantar los primeros proyectos en producción.
 > - Tecnologías muy disruptivas por la descentralización y por la trazabilidad de los datos.
 > - Problemas de escalabilidad y de volatilidad de precios.
-
-## Resumen
-
-> - **Creación**: Solidity, Remix, VSCOde, Plugin.
-> - **Testing**: Ganache, Truffle.
-> - **UI**: Angular, MetaMask, web3js.
-> - **Prueba**: Infura, Rinkeby.
-> - **Conclusiones**: descentralización y trazabilidad.
 
 
 

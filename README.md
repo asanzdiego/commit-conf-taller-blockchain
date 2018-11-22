@@ -17,9 +17,9 @@ Veremos un poco de [Solidity](https://solidity.readthedocs.io/en/v0.4.24/), un l
 
 ### Slides de la charla
 
-[Slides de la charla]()
+[Slides de la charla](https://asanzdiego.github.io/commit-conf-taller-blockchain/)
 
-<a href="">
+<a href="https://asanzdiego.github.io/commit-conf-taller-blockchain/">
   <img src="./slides/img/slides-sombra.png" alt="Slides de la charla"/>
 </a>
 
