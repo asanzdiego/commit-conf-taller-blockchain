@@ -342,7 +342,17 @@ truffle test
 [Angular](https://angular.io/) y [Angular Material](https://material.angular.io/).
 
 ~~~{.bash}
+# instalar
 npm install -g @angular/cli
+~~~
+
+## Navegador
+
+- Una vez instalado podemos verlo en <http://localhost:4200/> ejecutando:
+
+~~~{.bash}
+# ejecutar
+ng serve
 ~~~
 
 ## MetaMask
@@ -433,7 +443,7 @@ async donation(id: number, ethValue: number): Promise<Donation> {
 ## Resumen
 
 > - **[Truffle boxes](https://truffleframework.com/boxes)**: boilerplates.
-> - **[Angular](https://angular.io/)**: npm install -g @angular/cli
+> - **[Angular](https://angular.io/)**: npm serve
 > - **[MetaMask](https://metamask.io/)**: nodo ligero y wallet de Ethereum.
 > - **[web3js](https://web3js.readthedocs.io/)**: librería de comunicación.
 
@@ -444,6 +454,15 @@ async donation(id: number, ethValue: number): Promise<Donation> {
 
 
 
+
+## Front
+
+- Primero hacemos el build y luego desplegamos en un servidor web. Puede ser en **GitHub Pages**, u otro, pero siendo puristas habría que usar [IPFS](https://ipfs.io/).
+
+~~~{.bash}
+# empaquetar
+ng build --prod
+~~~
 
 ## Infura
 
@@ -487,10 +506,12 @@ truffle migrate --network rinkeby
 
 ## Resumen
 
+> - **Front**: desplegar como siempre o mejor en IPFS.
 > - **Infura**: simplifica el despliegue de ÐApps.
 > - **Rinkeby**: red de pruebas para probar ÐApps.
 > - **truffle.js**: apiKey y walletMmnemonic.
 > - **Migrar**: truffle migrate --network rinkeby
+
 
 
 
@@ -501,34 +522,19 @@ truffle migrate --network rinkeby
 
 ## ¿Creación contratos inteligentes?
 
-![Creación contratos inteligentes](../img/esquema-implementacion-dapp-1.png)
-
-> - **[Solidity](https://solidity-es.readthedocs.io/es/latest/)**: lenguaje de programación.
-> - **[Remix](https://remix.ethereum.org/)**: IDE en un navegador.
-> - **[Visual Studio Code](https://code.visualstudio.com/)**: IDE Software Libre 
-> - **[Plugin de Solidity de Juan Blanco](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity)**: Plugin de Solidity para Visual Studio Code
+![](../img/esquema-implementacion-dapp-1.png)
 
 ## ¿Testing contratos inteligentes?
 
-![Testing contratos inteligentes](../img/esquema-implementacion-dapp-2.png)
-
-> - **[Ganache](https://truffleframework.com/ganache)**: nodo privado para desarrollar y testear sin coste.
-> - **[Truffle](https://truffleframework.com/)**: framework de desarrollo de smarts contracts de Ethreum.
+![](../img/esquema-implementacion-dapp-2.png)
 
 ## ¿Creación interfaz de usuario?
 
-![Creación interfaz de usuario](../img/esquema-implementacion-dapp-3.png)
-
-> - **[Angular](https://angular.io/)**: framework de desarrollo de interfaces de usuario.
-> - **[MetaMask](https://metamask.io/)**: nodo ligero y wallet de Ethereum permite ejecutar ÐApps en navegador.
-> - **[web3js](https://web3js.readthedocs.io/)**: librería comunicación entre interfaz de usuario y nodo de Ethereum.
+![](../img/esquema-implementacion-dapp-3.png)
 
 ## ¿Subida a entornos de prueba?
 
-![Entornos de prueba](../img/esquema-implementacion-dapp-4.png)
-
-> - **[Infura](https://infura.io/)**: simplifica el despliegue de ÐApps en redes de prueba y en la red principal.
-> - **[Rinkeby](https://www.rinkeby.io/)**: red de pruebas para probar ÐApps.
+![](../img/esquema-implementacion-dapp-4.png)
 
 ## ¿Conclusiones?
 
