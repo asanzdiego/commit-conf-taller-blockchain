@@ -579,7 +579,7 @@ truffle migrate --network rinkeby
 
 ## Slides
 
-Las slides están hechas con **[MarkdownSlides](https://github.com/markdownslides/markdownslides>)**.
+Las slides están hechas con **[MarkdownSlides](https://github.com/markdownslides/markdownslides)**.
 
 
 
