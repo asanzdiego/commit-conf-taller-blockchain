@@ -1,6 +1,25 @@
-% Desarrollo ÐApp de Expedientes Académicos en Blockchain de Ethereum
+% Desarrollo de aplicaciones descentralizadas en la Blockchain de Ethereum
 % Adolfo Sanz De Diego
 % Commit-Conf 2018
+
+
+
+
+# Autor
+
+
+
+
+## Adolfo Sanz De Diego
+
+Asesor. Desarrollador. Profesor. Formador.
+
+- Blog: [asanzdiego.com](https://www.asanzdiego.com/)
+- Correo: [asanzdiego@gmail.com](mailto:asanzdiego@gmail.com)
+- GitHub: [github.com/asanzdiego](http://github.com/asanzdiego)
+- Twitter: [twitter.com/asanzdiego](http://twitter.com/asanzdiego)
+- LinkedIn: [in/asanzdiego](http://www.linkedin.com/in/asanzdiego)
+- SlideShare: [slideshare.net/asanzdiego](http://www.slideshare.net/asanzdiego/)
 
 
 
