@@ -6,21 +6,21 @@ En este taller pretendo hacer una pequeña aplicación descentralizada con un pe
 
 Veremos un poco de [Solidity](https://solidity.readthedocs.io/en/v0.4.24/), un lenguaje para programar contratos inteligentes. Utilizaremos también [Truffle](http://truffleframework.com/), un framework para desarrollar y testear aplicaciones descentralizadas. Necesitaremos usar [web3js](https://github.com/ethereum/web3.js/) para llamar desde nuestra web a la Blockchain. Usaremos [MetaMask](https://metamask.io/) para interactuar con la aplicación. Y para minar nuestras transacciones de prueba levantaremos una instancia de [Ganache](http://truffleframework.com/ganache/).
 
-[Charla en el Commit Conf](https://www.koliseo.com/events/commit-2018/r4p/5630471824211968/agenda#/5116072650866688/5423890473943040)
+[Taller en el Commit Conf](https://www.koliseo.com/events/commit-2018/r4p/5630471824211968/agenda#/5116072650866688/5423890473943040)
 
 <a href="https://www.koliseo.com/events/commit-2018/r4p/5630471824211968/agenda#/5116072650866688/5423890473943040">
-  <img src="./slides/img/commit-conf-blockchain.png" alt="Charla en el Commit Conf"/>
+  <img src="./slides/img/commit-conf-blockchain.png" alt="Taller en el Commit Conf"/>
 </a>
 
 
 ## Recursos
 
-### Slides de la charla
+### Slides de la taller
 
-[Slides de la charla](https://asanzdiego.github.io/commit-conf-taller-blockchain/)
+[Slides de la taller](https://asanzdiego.github.io/commit-conf-taller-blockchain/)
 
 <a href="https://asanzdiego.github.io/commit-conf-taller-blockchain/">
-  <img src="./slides/img/slides-sombra.png" alt="Slides de la charla"/>
+  <img src="./slides/img/slides-sombra.png" alt="Slides de la taller"/>
 </a>
 
 ## Ejecución de la ÐApp
